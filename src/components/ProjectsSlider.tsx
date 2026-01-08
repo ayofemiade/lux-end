@@ -63,8 +63,8 @@ const ProjectsSlider = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row items-end justify-between mb-16 md:mb-20">
                     <div className="max-w-2xl">
-                        <h2 className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-gray-400 font-light">Featured Work</h2>
-                        <h3 className="text-3xl md:text-6xl font-serif leading-tight">Craftsmanship <br className="hidden md:block" /> in Every Detail</h3>
+                        <h2 className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-gray-400 font-light underline underline-offset-8 decoration-black/5">The Collective</h2>
+                        <h3 className="text-3xl md:text-6xl font-serif leading-tight">Portraits of <br className="hidden md:block" /> Distinction</h3>
                     </div>
                     <div className="flex space-x-4 mt-8 md:mt-0">
                         <button

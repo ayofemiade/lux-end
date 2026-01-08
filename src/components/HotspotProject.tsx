@@ -36,8 +36,8 @@ const HotspotProject = () => {
         <section className="py-20 md:py-32 bg-gray-soft overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-12 md:mb-20">
-                    <h2 className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-gray-400 font-light">The Anatomy of Luxury</h2>
-                    <h3 className="text-3xl md:text-6xl font-serif leading-tight">Every Piece Tells a Story</h3>
+                    <h2 className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-gray-400 font-light">The Materiality of Art</h2>
+                    <h3 className="text-3xl md:text-6xl font-serif leading-tight">Precision in Every Selection</h3>
                 </div>
 
                 <div className="relative aspect-[4/5] md:aspect-video w-full overflow-hidden luxury-shadow bg-zinc-200">

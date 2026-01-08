@@ -41,8 +41,8 @@ const ScrollStory = () => {
                     className="max-w-4xl text-center px-6"
                 >
                     <h2 className="text-3xl md:text-5xl font-serif text-black leading-tight mb-8">
-                        Your space should reflect who you are. <br className="hidden md:block" />
-                        Not just function — but identity.
+                        Architecture provides the walls. <br className="hidden md:block" />
+                        We provide the soul.
                     </h2>
                     <div className="w-20 h-px bg-black mx-auto" />
                 </motion.div>
@@ -71,10 +71,10 @@ const ScrollStory = () => {
                         className="relative z-10 text-center text-white px-6 max-w-5xl"
                     >
                         <h2 className="text-4xl md:text-7xl font-serif mb-8 leading-tight">
-                            We design interiors that command attention, elevate comfort, and define status.
+                            Curating environments that command presence and offer absolute sanctuary.
                         </h2>
                         <p className="text-sm md:text-base uppercase tracking-[0.4em] font-light text-zinc-300">
-                            The Antwort to Luxury Living
+                            Reserved for the Discerning
                         </p>
                     </motion.div>
                 </div>
@@ -96,17 +96,17 @@ const ScrollStory = () => {
                     </motion.div>
                     <div className="space-y-12">
                         <h3 className="text-4xl md:text-6xl font-serif leading-tight">
-                            Curated for the Exceptional.
+                            Crafted for the <br /> 0.1%.
                         </h3>
                         <p className="text-lg text-gray-500 leading-relaxed font-light">
-                            Our process is not about filling rooms. It is about spatial storytelling. We source materials from around the globe to ensure your home is a unique masterpiece of comfort and design.
+                            Our process transcends traditional design. We execute spatial storytelling through rare materials and artisan hands, ensuring your residence is not just a house—but a curated legacy.
                         </p>
                         <div className="pt-8">
                             <div className="h-px w-full bg-black/10 mb-8" />
                             <div className="flex justify-between items-center text-xs uppercase tracking-widest text-gray-400">
-                                <span>Bespoke Materials</span>
-                                <span>Artisan Craft</span>
-                                <span>Global Vision</span>
+                                <span>Rare Materials</span>
+                                <span>Artisan Precision</span>
+                                <span>Global Distinction</span>
                             </div>
                         </div>
                     </div>

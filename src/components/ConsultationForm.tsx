@@ -38,8 +38,8 @@ const ConsultationForm = () => {
         <section id="consultation" className="py-24 md:py-40 bg-black text-white px-6">
             <div className="max-w-3xl mx-auto">
                 <div className="text-center mb-12 md:mb-16">
-                    <h2 className="text-[10px] md:text-sm uppercase tracking-[0.5em] mb-4 text-zinc-500 font-light">The Journey Begins</h2>
-                    <h3 className="text-3xl md:text-6xl font-serif leading-tight">Start Your Design Journey</h3>
+                    <h2 className="text-[10px] md:text-sm uppercase tracking-[0.5em] mb-4 text-zinc-500 font-light underline underline-offset-8 decoration-zinc-800">The Commissioning Process</h2>
+                    <h3 className="text-3xl md:text-6xl font-serif leading-tight">Define Your Domain</h3>
                 </div>
 
                 <div className="relative min-h-[450px] md:min-h-[400px] border border-zinc-800 p-6 md:p-16 flex flex-col justify-center items-center luxury-shadow">

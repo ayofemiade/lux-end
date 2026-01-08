@@ -37,15 +37,15 @@ const Hero = () => {
                 <motion.h1
                     className="text-4xl sm:text-5xl md:text-8xl font-serif mb-6 tracking-tight leading-[1.1]"
                 >
-                    Designing Spaces <br className="hidden sm:block" /> That Speak Luxury
+                    Designing Spaces <br className="hidden sm:block" /> That Speak <span className="italic text-white underline decoration-white/20 underline-offset-8">Luxury</span>
                 </motion.h1>
                 <motion.p
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 1 }}
-                    className="text-sm md:text-xl uppercase tracking-[0.2em] md:tracking-[0.3em] font-light mb-8 md:mb-12 text-zinc-300"
+                    initial={{ opacity: 0, letterSpacing: "0.1em" }}
+                    animate={{ opacity: 1, letterSpacing: "0.3em" }}
+                    transition={{ delay: 0.5, duration: 1.5, ease: "easeOut" }}
+                    className="text-xs md:text-sm uppercase font-medium mb-8 md:mb-12 text-white/90 drop-shadow-sm"
                 >
-                    Bespoke Interior & Furniture Design
+                    Mastering the Art of Bespoke Living
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: ["Luxury Interior Design", "Bespoke Furniture", "High-end Interior Services", "Lux End Furniture"],
   openGraph: {
     title: "Lux End Furniture | Designing Spaces That Speak Luxury",
-    description: "Bespoke Interior & Furniture Design for the discerning client.",
+    description: "Mastering the Art of Bespoke Living for the discerning client.",
     images: ["/hero_luxury_interior.png"],
   },
 };

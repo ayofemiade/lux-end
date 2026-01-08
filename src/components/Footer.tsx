@@ -9,12 +9,13 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-32">
                     <h2 className="text-4xl md:text-7xl font-serif mb-12">
-                        Let’s design a space <br /> that speaks before you do.
+                        Commission <br /> Your Sanctuary.
                     </h2>
                     <Button variant="primary" size="lg" onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}>
-                        Book a Design Consultation
+                        Initiate Inquiry
                     </Button>
                 </div>
+
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pt-20 border-t border-black/5">
                     <div className="col-span-1 md:col-span-1">
