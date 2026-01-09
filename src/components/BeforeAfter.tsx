@@ -102,7 +102,7 @@ const BeforeAfter = () => {
                                 className="absolute inset-0 overflow-hidden"
                                 style={{ width: `${sliderPos}%` }}
                             >
-                                <div className="relative h-full w-[calc(100vw-48px)] lg:w-[calc((1280px-96px)/2)] min-w-[300px] h-full"> {/* Match parent size */}
+                                <div className="relative h-full w-full"> {/* Use 100% of parent */}
                                     <Image
                                         src="/luxury_office.png"
                                         alt="Before"

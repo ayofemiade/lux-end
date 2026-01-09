@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import { BLUR_DATA_URL } from "@/lib/constants";
 
 const caseStudies = [
     {
@@ -29,29 +30,32 @@ const caseStudies = [
 
 const CaseStudies = () => {
     return (
-        <section className="py-24 md:py-40 bg-white px-6">
+        <section className="py-24 md:py-40 bg-zinc-50 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-20 text-center md:text-left">
-                    <h2 className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-gray-400 font-light underline underline-offset-8 decoration-black/5">Narrative Portfolios</h2>
-                    <h3 className="text-3xl md:text-6xl font-serif leading-tight">Stories of <br className="hidden md:block" /> Transformation</h3>
+                    <h2 className="text-[10px] md:text-xs uppercase tracking-[0.5em] mb-4 text-gray-400 font-light underline underline-offset-8 decoration-black/5">Narrative Portfolios</h2>
+                    <h3 className="text-3xl md:text-7xl font-serif leading-tight">Stories of <br className="hidden md:block" /> Transformation</h3>
                 </div>
 
-                <div className="grid gap-12">
+                <div className="grid gap-24 md:gap-32">
                     {caseStudies.map((study, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 1, delay: index * 0.2 }}
-                            className={`group flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-12 md:gap-20`}
+                            viewport={{ once: true, margin: "-10%" }}
+                            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                            className={`group flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-12 md:gap-24`}
                         >
-                            <div className="w-full md:w-3/5 relative aspect-[16/10] overflow-hidden luxury-shadow grayscale hover:grayscale-0 transition-all duration-1000">
+                            <div className="w-full md:w-3/5 relative aspect-[3/2] overflow-hidden luxury-shadow grayscale hover:grayscale-0 transition-all duration-1000 bg-zinc-200">
                                 <Image
                                     src={study.image}
                                     alt={study.title}
                                     fill
-                                    className="object-cover transition-transform duration-1000 group-hover:scale-105"
+                                    sizes="(max-width: 768px) 100vw, 60vw"
+                                    className="object-cover transition-transform duration-[2000ms] group-hover:scale-105"
+                                    placeholder="blur"
+                                    blurDataURL={BLUR_DATA_URL}
                                 />
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                             </div>

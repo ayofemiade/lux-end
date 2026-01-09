@@ -31,13 +31,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden selection:bg-black selection:text-white">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body
-        className={`${inter.variable} ${playfair.variable} antialiased bg-white text-black selection:bg-black selection:text-white`}
+        className={`${inter.variable} ${playfair.variable} antialiased bg-white text-black overflow-x-hidden w-full relative`}
         suppressHydrationWarning={true}
       >
         <CustomCursor />
-        {children}
+        <main className="overflow-x-hidden w-full relative">
+          {children}
+        </main>
       </body>
     </html>
   );

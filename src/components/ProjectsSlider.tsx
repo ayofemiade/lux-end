@@ -122,7 +122,7 @@ const ProjectsSlider = () => {
                 </div>
 
                 <div
-                    className="relative cursor-grab active:cursor-grabbing touch-pan-y"
+                    className="relative cursor-grab active:cursor-grabbing touch-pan-y overflow-hidden"
                     ref={containerRef}
                 >
                     <motion.div
